@@ -1,5 +1,8 @@
 export const Header = () => {
 	return (
-		<h1>React Site</h1>
-	)
-}
+		<div>
+			<h1>React Site</h1>
+			<p>This is a site created by Vite.</p>
+		</div>
+	);
+};
