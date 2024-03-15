@@ -1,8 +1,10 @@
+import { Header } from "./components/Header";
+
 function App() {
 	return (
 		<div>
-			<h1>React Site</h1>
-			<p>Welcome to the React site.</p>
+			<Header />
+			<p>Welcome to the React site with header.</p>
 		</div>
 	);
 }
